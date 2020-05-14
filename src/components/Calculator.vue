@@ -76,28 +76,28 @@ export default {
     divide()
     {
         this.operator = (a,b) => a/b;
-        this.previous = this.current;
+        this.previous = this.current; //only allow operation for 2 numbers
         this.operatorClicked = true;
     },
 
     times()
     {
         this.operator = (a,b) => a*b;
-         this.previous = this.current;
+         this.previous = this.current; //only allow operation for 2 numbers
          this.operatorClicked = true;
     },
 
     minus()
     {
         this.operator = (a,b) => a-b;
-         this.previous = this.current;
+         this.previous = this.current; //only allow operation for 2 numbers
          this.operatorClicked = true;
     },
 
     add()
     {
         this.operator = (a,b) => a+b;
-         this.previous = this.current;
+         this.previous = this.current; //only allow operations for 2 numbers
          this.operatorClicked = true;
     },
 
